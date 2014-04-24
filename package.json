@@ -59,7 +59,6 @@
         "difflet": "0.2.x"
     },
     "scripts": {
-        "preinstall":"npm install npm",
         "start": "./index.js",
         "test": "mocha --timeout 100000",
         "postinstall": "node ./lib/gitutil.js"
